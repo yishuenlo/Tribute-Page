@@ -1,0 +1,226 @@
+/* define document colors */
+:root{
+  --main-color: #263238;
+  --accent-color: #9575cd;
+  --bg-color: #F3F3F3;
+}
+
+::selection{
+  background-color: gold;
+}
+
+body, h1, h2, h3, h4, p, a, ul, img, div, section, nav, figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--main-color);
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+main{
+  margin: auto;
+}
+
+section h2, section h3, section p, section div{
+  width: 70%;
+  margin: 0 auto;
+}
+
+section, figure{
+  margin-bottom: 8em;
+  /* position: relative; */
+}
+
+h1, h2 {
+  display: inline-block;
+  font-family: Nunito;
+  font-weight: 900;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  padding-bottom: 0.1em;
+  /* text-align: center; */
+}
+
+section h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.underline{
+  border-bottom: 6px solid var(--accent-color);
+}
+
+h3 {
+  font-family: Roboto;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 2.5em;
+  color: var(--accent-color);
+}
+
+p, li {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+/* nav-bar style */
+
+.nav-bar{
+  display: inline-block;
+  width: 90%;
+  z-index: 1;
+  position: absolute; /*remove navbar from normal flow*/
+  font-family: nunito;
+  font-weight: 900;
+  margin: 1.5em 3em;
+}
+
+.nav-bar .tagline{
+  float: left;
+}
+
+.tagline {
+  font-family: nunito;
+  font-weight: 900;
+}
+
+.separator {
+  color: var(--accent-color);
+}
+
+.nav-bar .tagline a:hover, .tagline a:hover {
+  color: var(--accent-color);
+  transition: 200ms ease-out;
+}
+
+.menu{
+  float: right;
+}
+
+.menu li{
+  display: inline-block;
+  margin-left: 2em;
+}
+
+.nav-bar ul a:hover{
+  color: var(--accent-color);
+  border-bottom: 4px solid var(--accent-color);
+  transition: 200ms ease-out;
+}
+
+/* hero section */
+.hero{
+  /* position:relative; */
+  bottom: 3em;
+}
+
+#img-caption{
+  position: absolute;
+  top: 20em;
+  right: 10em;
+  z-index: 1;
+}
+
+figure h1{
+  margin-bottom: 0.3em;
+}
+figure p{
+  margin-bottom: 1.5em;
+}
+
+.first-name{
+  font-family: Roboto;
+  font-weight: 100;
+}
+
+.img-tag{
+  font-family: roboto;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.img-title{
+  font-family: roboto;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+#img-div{
+  width: 100%;
+  position: relative;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#image{
+  z-index: -1;
+}
+
+/* start tribute info */
+#biography {
+  width: 100%;
+}
+
+
+#influences{
+  padding: 8em 0 8em 0;
+  background-color: var(--bg-color);
+  text-align: center;
+}
+
+#source{
+  padding: 4em 0 0.25em 0;
+  background-color: var(--bg-color);
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#source p{
+  margin-bottom: 5em;
+}
+
+.wiki:hover{
+  color: var(--accent-color);
+  text-decoration: underline;
+  transition: 300ms ease-in;
+}
+.social-icons-container{
+
+  width: 40%;
+  margin: auto;
+}
+.icon-list {
+  display: inline-block;
+  margin: auto;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  width: 30px;
+}
+.icons{
+  fill:var(--main-color);
+}
+
+.icon-list:hover .icons{
+  fill: var(--accent-color);
+}
+
+h4{
+  margin-bottom: 2em;
+  font-size: 0.9em;
+  font-weight: 300;
+  font-style: italic;
+}
