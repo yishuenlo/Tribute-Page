@@ -16,7 +16,7 @@ body, h1, h2, h3, h4, p, a, ul, img, div, section, nav, figure {
 
 body {
   color: var(--main-color);
-  font-family: Roboto;
+  font-family: Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 300;
 }
 
