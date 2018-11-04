@@ -36,7 +36,7 @@ section, figure{
 
 h1, h2 {
   display: inline-block;
-  font-family: Nunito;
+  font-family: Nunito, Verdana, arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 900;
   font-size: 2.5em;
   text-transform: uppercase;
@@ -55,7 +55,7 @@ section h2 {
 }
 
 h3 {
-  font-family: Roboto;
+  font-family: Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 100;
   font-style: italic;
   font-size: 2.5em;
@@ -79,7 +79,7 @@ a {
   width: 90%;
   z-index: 1;
   position: absolute; /*remove navbar from normal flow*/
-  font-family: nunito;
+  font-family: nunito, Verdana, arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
   font-weight: 900;
   margin: 1.5em 3em;
 }
@@ -89,7 +89,7 @@ a {
 }
 
 .tagline {
-  font-family: nunito;
+  font-family: nunito, Verdana, arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
   font-weight: 900;
 }
 
@@ -138,19 +138,19 @@ figure p{
 }
 
 .first-name{
-  font-family: Roboto;
+  font-family: Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 100;
 }
 
 .img-tag{
-  font-family: roboto;
+  font-family: roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 2em;
   font-style: italic;
   font-weight: 100;
 }
 
 .img-title{
-  font-family: roboto;
+  font-family: roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1em;
   font-weight: 100;
 }
