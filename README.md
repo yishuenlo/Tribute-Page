@@ -1,4 +1,7 @@
-# Tribute-Page
-Tribute page for freeCodeCamp's Responsive Web Design Certificate
+# Build a Tribute Page
 
-[view live](https://yishuenlo.github.io/Tribute-Page/)
+a freeCodeCamp Responsive Web Design Project
+
+[Spec/ User Stories Requirements](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
+
+[Live Demo](https://yishuenlo.github.io/Tribute-Page/)
